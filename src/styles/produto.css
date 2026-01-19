@@ -1,0 +1,11 @@
+
+.produto{display:grid;grid-template-columns:1fr;gap:22px;padding:18px 0}
+.produto .imagem img{width:100%;height:auto;border-radius:10px;background:#fff;border:1px solid #e5e7eb}
+.produto .info .descricao{color:var(--muted)}
+.produto .info .preco{color:var(--primary);font-weight:700;font-size:1.25rem}
+.produto .acoes{display:flex;gap:12px;align-items:center;margin-top:10px}
+.produto .acoes input{width:70px;padding:8px;border:1px solid #e5e7eb;border-radius:6px}
+
+@media(min-width:900px){
+  .produto{grid-template-columns:1fr 1fr;align-items:start}
+}

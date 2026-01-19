@@ -1,0 +1,15 @@
+
+.carrinho h1{margin:24px 0 16px}
+.carrinho-wrapper{display:grid;grid-template-columns:1fr;gap:18px}
+.lista-itens{list-style:none;padding:0;margin:0}
+.item{display:flex;gap:14px;background:var(--surface);border:1px solid #e5e7eb;border-radius:10px;padding:10px}
+.item img{width:90px;height:90px;object-fit:cover;border-radius:8px}
+.item .qtd{display:flex;align-items:center;gap:8px;margin-top:8px}
+.item .qtd button{padding:4px 8px}
+.item .qtd .remover{margin-left:auto;background:#ef4444}
+.resumo{background:var(--surface);border:1px solid #e5e7eb;border-radius:10px;padding:14px;height:fit-content}
+.resumo .linha{display:flex;justify-content:space-between;border-top:1px dashed #e5e7eb;padding-top:10px;margin-top:10px}
+
+@media(min-width:900px){
+  .carrinho-wrapper{grid-template-columns:2fr 1fr}
+}

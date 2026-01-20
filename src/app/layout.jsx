@@ -4,7 +4,7 @@ import CarrinhoProvider from "../context/CarrinhoContext";
 
 
 export const metadata = {
-  title: "capputeeno",
+  title: "Loja on line Eduardo",
   description: "Loja exemplo Next.js",
 };
 
